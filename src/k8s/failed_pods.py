@@ -1,4 +1,4 @@
-from pod_health import collect_pod_health, load_kube_context
+from k8s.pod_health import collect_pod_health, load_kube_context
 
 
 def main() -> None:
