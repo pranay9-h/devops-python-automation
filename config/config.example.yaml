@@ -1,0 +1,10 @@
+aws:
+  region: ap-south-1
+
+kubernetes:
+  context: replace-with-your-context
+  namespace: default
+  restart_threshold: 5
+
+safety:
+  dry_run: true
