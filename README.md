@@ -142,13 +142,13 @@ This is a lightweight audit, not a complete cloud-security assessment.
 Use your current kubeconfig:
 
 ```bash
-PYTHONPATH=src python src/kubernetes/pod_health.py
+PYTHONPATH=src python src/k8s/pod_health.py
 ```
 
 Limit to a namespace:
 
 ```bash
-PYTHONPATH=src python src/kubernetes/pod_health.py --namespace default
+PYTHONPATH=src python src/k8s/pod_health.py --namespace default
 ```
 
 The utility flags:
@@ -162,13 +162,13 @@ The utility flags:
 Example:
 
 ```bash
-PYTHONPATH=src python src/kubernetes/pod_health.py --restart-threshold 3
+PYTHONPATH=src python src/k8s/pod_health.py --restart-threshold 3
 ```
 
 ## Failed pod report
 
 ```bash
-PYTHONPATH=src python src/kubernetes/failed_pods.py
+PYTHONPATH=src python src/k8s/failed_pods.py
 ```
 
 This gives a minimal report for pods whose phase is `Failed`.
