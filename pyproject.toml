@@ -1,0 +1,22 @@
+[project]
+name = "devops-python-automation"
+version = "0.1.0"
+description = "Safe Python automation utilities for AWS, Kubernetes, and log analysis."
+requires-python = ">=3.11"
+dependencies = [
+  "boto3==1.35.54",
+  "kubernetes==31.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest==8.3.3",
+  "ruff==0.7.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
