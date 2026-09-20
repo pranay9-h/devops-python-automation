@@ -1,4 +1,4 @@
-from kubernetes.pod_health import unhealthy_reason
+from k8s.pod_health import unhealthy_reason
 
 
 def test_crashloop_is_unhealthy():
