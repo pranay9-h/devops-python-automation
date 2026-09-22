@@ -1,6 +1,8 @@
 # DevOps Python Automation
 
-Production-style Python automation portfolio for common AWS, Kubernetes, and operational troubleshooting tasks.
+[![Python Validation](https://github.com/pranay9-h/devops-python-automation/actions/workflows/python-tests.yml/badge.svg?branch=master)](https://github.com/pranay9-h/devops-python-automation/actions/workflows/python-tests.yml)
+
+Python automation toolkit for AWS inventory and auditing, Kubernetes health diagnostics, safe resource cleanup, log analysis, and CI-tested operational utilities.
 
 The project emphasizes **safe defaults, clear CLI behavior, testability, and interview-friendly code** rather than one-off scripts.
 
@@ -32,7 +34,7 @@ The project emphasizes **safe defaults, clear CLI behavior, testability, and int
 │   │   ├── ec2_inventory.py
 │   │   ├── s3_audit.py
 │   │   └── unused_ebs.py
-│   ├── kubernetes/
+│   ├── k8s/
 │   │   ├── failed_pods.py
 │   │   └── pod_health.py
 │   └── logs/
@@ -264,4 +266,5 @@ Be prepared to explain:
 ## Author
 
 Pranay Saiteja Soppadandi  
-GitHub: https://github.com/pranay9-h
+GitHub: https://github.com/pranay9-h  
+LinkedIn: https://www.linkedin.com/in/pranay-sai-teja-2b257b1a1/
